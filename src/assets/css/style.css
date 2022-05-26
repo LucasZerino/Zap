@@ -3021,9 +3021,3 @@ html {
   100%{transform: rotate(360deg);}
 }
 
-@media (max-width: 500px) {
-.ancora{
-  width: 30px;
-  height: 20px;
-}
-}

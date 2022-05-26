@@ -35,7 +35,7 @@ export default class Pricing extends Component {
             id="switch-toggle-tab"
           >
             <li className={this.state.month ? "month active" : "month"}>
-              <a href="#none">Mensalmente</a>
+              <a href="https://app.mezap.com.br/" target="_blank">Mensalmente</a>
             </li>
             <li>
               <div
@@ -49,7 +49,7 @@ export default class Pricing extends Component {
               </div>
             </li>
             <li className={this.state.year ? "year active" : "year"}>
-              <a href="#none">Anualmente</a>
+              <a href="https://app.mezap.com.br/" target="_blank">Anualmente</a>
             </li>
           </ul>
           <div className="tabed-content">
@@ -57,60 +57,80 @@ export default class Pricing extends Component {
               <div id="month">
                 <div className="row pricing-one__price-row">
                   <div
-                    className="col-lg-4 animated fadeInUp"
+                    className="col-lg-3 animated fadeInUp"
                     data-wow-duration="1500ms"
                   >
                     <div className="pricing-one__single text-center">
-                      <h3>R$20.00</h3>
-                      <p>pacote básico</p>
+                      <h3>R$0.00</h3>
+                      <p>Plano Gratuito</p>
                       <ul className="list-unstyled">
-                        <li>Funções Extras</li>
-                        <li>Suporte Incluso</li>
-                        <li>Opções de Upgrade</li>
-                        <li>Acesso Completo</li>
+                        <li>02 menus</li>
+                        <li>02 produtos</li>
+                        <li>Mensagens limitadas</li>
+                        <li>50 atendimentos/mês</li>
                       </ul>
-                      <a href="#none" className="thm-btn pricing-one__btn">
-                        <span>Escolha Seu Plano</span>
+                      <a href="https://app.mezap.com.br/" target="_blank" className="thm-btn pricing-one__btn">
+                        <span>COMEÇAR</span>
                       </a>
                       <span className="tag-line">Sem Taxas Extras!</span>
                     </div>
                   </div>
                   <div
-                    className="col-lg-4 animated fadeInDown"
+                    className="col-lg-3 animated fadeInDown"
                     data-wow-duration="1500ms"
                   >
                     <div className="pricing-one__single text-center">
-                      <h3>R$30.00</h3>
-                      <p>pacote médio</p>
+                      <h3>R$47.00</h3>
+                      <p>Plano Start</p>
                       <ul className="list-unstyled">
-                        <li>Funções Extras</li>
-                        <li>Suporte Incluso</li>
-                        <li>Opções de Upgrade</li>
-                        <li>Acesso Completo</li>
+                        <li>até 05 menus</li>
+                        <li>até 10 produtos</li>
+                        <li>Mensagens ilimitadas</li>
+                        <li>300 atendimentos/mês</li>
                       </ul>
-                      <a href="#none" className="thm-btn pricing-one__btn">
-                        <span>Escolha seu Plano</span>
+                      <a href="https://app.mezap.com.br/" target="_blank" className="thm-btn pricing-one__btn">
+                      <span>CONTRATAR</span>
                       </a>
                       <span className="tag-line">SEM TAXAS EXTRAS!</span>
                     </div>
                   </div>
                   <div
-                    className="col-lg-4 animated fadeInUp"
+                    className="col-lg-3 animated fadeInUp ancora"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="pricing-one__single text-center spanBotao">
+                      <h3>R$97.00</h3>
+                      <p>Plano Premium</p>
+                      <p>Mais escolhido</p>
+                      <ul className="list-unstyled">
+                        <li>Menus ilimitados</li>
+                        <li>Produtos ilimitados</li>
+                        <li>Mensagens ilimitadas</li>
+                        <li>1000 atendimentos/mês</li>
+                      </ul>
+                      <a href="https://app.mezap.com.br/" target="_blank" className="thm-btn pricing-one__btn">
+                        <span>CONTRATAR</span>
+                      </a>
+                      <span className="tag-line">Sem Taxas Extras!</span>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-3 animated fadeInUp"
                     data-wow-duration="1500ms"
                   >
                     <div className="pricing-one__single text-center">
-                      <h3>R$59.00</h3>
-                      <p>pacote prêmio</p>
+                      <h3><br/></h3>
+                      <p>Plano Interprise</p>
                       <ul className="list-unstyled">
-                        <li>Funções Extras</li>
-                        <li>Suporte Incluso</li>
-                        <li>Opções de Upgrade</li>
-                        <li>Acesso Completo</li>
+                      <li>Menus ilimitados</li>
+                        <li>Produtos ilimitados</li>
+                        <li>Mensagens ilimitadas</li>
+                        <li>Atendimentos ilimitados</li>
                       </ul>
-                      <a href="#none" className="thm-btn pricing-one__btn">
-                        <span>Escolha seu Plano</span>
+                      <a href="#contato" className="thm-btn pricing-one__btn">
+                        <span>CONSULTAR</span>
                       </a>
-                      <span className="tag-line">Sem Taxas Extras!</span>
+                      <span className="tag-line">Integração com seu sistema de gestão</span>
                     </div>
                   </div>
                 </div>
@@ -121,60 +141,80 @@ export default class Pricing extends Component {
               <div id="year">
                 <div className="row pricing-one__price-row">
                   <div
-                    className="col-lg-4 animated fadeInUp"
+                    className="col-lg-3 animated fadeInUp"
                     data-wow-duration="1500ms"
                   >
-                    <div className="pricing-one__single text-center">
-                      <h3>R$120.00</h3>
-                      <p>pacote básico</p>
+                    <div className="pricing-one__single text-center centos">
+                    <h3>R$0.00</h3>
+                      <p>Plano Gratuito</p>
                       <ul className="list-unstyled">
-                        <li>Funções Extras</li>
-                        <li>Suporte Incluso</li>
-                        <li>Opções de Upgrade</li>
-                        <li>Acesso Completo</li>
+                        <li>02 menus</li>
+                        <li>02 produtos</li>
+                        <li>Mensagens limitadas</li>
+                        <li>50 atendimentos/mês</li>
                       </ul>
-                      <a href="#none" className="thm-btn pricing-one__btn">
-                        <span>Escolha seu Plano</span>
+                      <a href="https://app.mezap.com.br/" target="_blank" className="thm-btn pricing-one__btn">
+                        <span>COMEÇAR</span>
                       </a>
                       <span className="tag-line">Sem Taxas Extras!</span>
                     </div>
                   </div>
                   <div
-                    className="col-lg-4 animated fadeInDown"
+                    className="col-lg-3 animated fadeInDown"
                     data-wow-duration="1500ms"
                   >
-                    <div className="pricing-one__single text-center">
-                      <h3>R$230.00</h3>
-                      <p>pacote médio</p>
+                    <div className="pricing-one__single text-center centos">
+                      <h3>R$470.00</h3>
+                      <p>Plano Start</p>
                       <ul className="list-unstyled">
-                        <li>Funções Extras</li>
-                        <li>Suporte Incluso</li>
-                        <li>Opções de Upgrade</li>
-                        <li>Acesso Completo</li>
+                        <li>até 05 menus</li>
+                        <li>até 10 produtos</li>
+                        <li>Mensagens ilimitadas</li>
+                        <li>300 atendimentos/mês</li>
                       </ul>
-                      <a href="#none" className="thm-btn pricing-one__btn">
-                        <span>Escolha seu Plano</span>
+                      <a href="https://app.mezap.com.br/" target="_blank" className="thm-btn pricing-one__btn">
+                      <span>CONTRATAR</span>
+                      </a>
+                      <span className="tag-line">SEM TAXAS EXTRAS!</span>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-3 animated fadeInUp ancora"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="pricing-one__single text-center spanBotao centos">
+                    <h3>R$970.00</h3>
+                      <p>Plano Premium</p>
+                      <p>Mais escolhido</p>
+                      <ul className="list-unstyled">
+                        <li>Menus ilimitados</li>
+                        <li>Produtos ilimitados</li>
+                        <li>Mensagens ilimitadas</li>
+                        <li>1000 atendimentos/mês</li>
+                      </ul>
+                      <a href="https://app.mezap.com.br/" target="_blank" className="thm-btn pricing-one__btn">
+                        <span>CONTRATAR</span>
                       </a>
                       <span className="tag-line">Sem Taxas Extras!</span>
                     </div>
                   </div>
                   <div
-                    className="col-lg-4 animated fadeInUp"
+                    className="col-lg-3 animated fadeInUp"
                     data-wow-duration="1500ms"
                   >
                     <div className="pricing-one__single text-center">
-                      <h3>R$340.00</h3>
-                      <p>pacote prêmio</p>
+                    <h3><br/></h3>
+                      <p>Plano Interprise</p>
                       <ul className="list-unstyled">
-                        <li>Funções Extras</li>
-                        <li>Suporte Incluso</li>
-                        <li>Opções de Upgrade</li>
-                        <li>Acesso Completo</li>
+                      <li>Menus ilimitados</li>
+                        <li>Produtos ilimitados</li>
+                        <li>Mensagens ilimitadas</li>
+                        <li>Atendimentos ilimitados</li>
                       </ul>
-                      <a href="#none" className="thm-btn pricing-one__btn">
-                        <span>Escolha Seu Plano</span>
+                      <a href="#contato" className="thm-btn pricing-one__btn">
+                        <span>CONSULTAR</span>
                       </a>
-                      <span className="tag-line">Sem Taxas Extras!</span>
+                      <span className="tag-line">Integração com seu sistema de gestão</span>
                     </div>
                   </div>
                 </div>

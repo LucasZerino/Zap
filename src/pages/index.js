@@ -10,6 +10,7 @@ import Pricing from "../components/Pricing";
 import Counter from "../components/Counter";
 import Screenshots from "../components/Screenshots";
 import Faq from "../components/Faq";
+import Subscribe from "../components/Subscribe";
 
 
 const HomePage = () => (
@@ -22,6 +23,7 @@ const HomePage = () => (
     <Pricing />
     <Screenshots />
     <Faq />
+    <Subscribe />
     <Footer />
   </Layout>
 );

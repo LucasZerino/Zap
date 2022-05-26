@@ -42,7 +42,7 @@ const Screenshots = () => {
       <div className="container-fluid">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-            Dê uma olhada na <br /> <span>Interface</span> do nosso app.
+            Veja como funciona a <br /> <span>área de gestão</span> da empresa.
           </h2>
         </div>
         <div className="app-shot-one__carousel">

@@ -16,15 +16,15 @@ const CallToActionTwo = () => {
               </div>
               <div className="cta-two__text">
                 <p>
-                Esqueça ficar mandando seu cliente clicar em Link, agora ele pode pedir tudo dentro do whatsapp
+                Interaja com seus clientes em uma plataforma unificada que integra todos os canais de comunicação da empresa. Integre Whatsapp, Telegram, Chat, Messenger, Instragram e muito mais!!
 
                 </p>
                 <p>
-                  Benefícios imediatos para o seu negócio.
+                Conheça o Mezap Omnichannel, não perca nenhum cliente e tenha benefícios imediatos para a gestão de seu negócio.
                 </p>
               </div>
-              <a  href="https://app.mezap.com.br/" target="_blank" className="thm-btn">
-                <span>Teste Grátis</span>
+              <a  href="https://mezap.com.br/" target="_blank" className="thm-btn">
+                <span>Quero conhecer</span>
               </a>
             </div>
           </div>

@@ -2,11 +2,11 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <section className="mailchimp-one">
+    <section className="mailchimp-one" id='contato'>
       <div className="container">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-            Subscribe Our <span>Newsletter</span> <br /> to Get New Updates.
+            Entre em contato <span>conosco</span> <br /> para consultar planos.
           </h2>
         </div>
         <form
@@ -21,7 +21,7 @@ const Subscribe = () => {
             type="email"
             id="mc-email"
             className="formInput"
-            placeholder="Email address"
+            placeholder="Email"
           />
           <button type="submit">
             <i className="dimon-icon-right-arrow"></i>
